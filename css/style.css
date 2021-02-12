@@ -40,7 +40,7 @@ html,body{
 .section-title p { font-weight: var(--weight-light); font-size: var(--font-medium); }
 
 .container { width: 100%; }
-.content { position: relative; width: 1280px; margin: 0 auto; padding: 0 40px; }
+.content { position: relative; width: 1280px; margin: 0 auto; padding: 0 20px; }
 
 .main-content section { padding: 80px 0; }
 
@@ -63,6 +63,7 @@ html,body{
 
 .main-content-featured header { display: flex; flex-flow: column nowrap; justify-content: center; }
 .main-content-featured header h1 { font-size: 3.8em; max-width: 500px; color: #fff; text-shadow: 0 1px 1px rgb(0 0 0 / 100%); }
+
 
 .main-content-featured header > :nth-child(2) { width: 600px; padding: 20px 0; font-size: var(--font-large);}
 .main-content-featured header > :nth-child(3) { margin: 40px 0 0 0 ; }
@@ -88,3 +89,42 @@ html,body{
 .section-como-funciona-input input:focus{outline: none;}
 .section-como-funciona-img img{width: 500px;}
 .section-como-funciona-img{ top: 0; right: 0;}
+
+
+/**************************************************/
+/*************** SECTION VANTANGES  **************/
+
+.section-vantagens-list { display: grid; grid-template-columns: repeat( 2, 1fr); padding-top: 10px; }
+.section-vantagens-text { padding-right: 24px; }
+.section-vantagens-text p { padding-top: 20px; }
+.section-vantagens-img { padding-top: 10px; padding-right: 32px; }
+.section-vantagens-list li { display: flex; padding: 40px; }
+
+/**************************************************/
+/***************** PERGUNTAS  *********************/
+
+.section-perguntas-list { display: grid; grid-template-columns: repeat( 2, 1fr); margin-top: 20px; }
+.section-perguntas-list li { display: flex; margin: 8px; justify-content: center; }
+.section-perguntas-p { }
+.section-perguntas-p p { width:400px; height:28px; padding-left: 6px; background-color: #e0e0e0; border-radius: 4px; box-shadow: 1px 1px 1px black; }
+.left-perguntas { margin-left: 250px; }
+.right-perguntas { margin-right: 250px; }
+
+
+/**************************************************/
+/********************** FOOTER ********************/
+
+.logo-preto img { width: 150px; } 
+.redes-sociais { margin-bottom: 15px; }
+.main-footer { background: #f3f3f3;}
+.main_footer_content { display: flex;  padding: 50px 0 50px 0; flex-wrap: no-wrap; flex: 1; justify-content: space-around;}
+.main_footer_content_section { flex-basis: 340px; margin: 0; font-size: 1em;}
+.main_footer_content_section h3 { font-size: 1em; padding-bottom: 10px; }
+.main_footer_content_section p:first-of-type { font-size: 0.8em;}
+.main_footer_content_section p:last-of-type { font-size: 0.9em;}
+.main_footer_content_section p:nth-child(3) { font-size: 1.2em; font-weight: 600; }
+.main_footer_content_section a { font-weight: 600; color: #000; }
+.main_footer_content_section a:hover { text-decoration: underline; }
+.main_footer_content_section p { padding: 4px 0; }
+.main_footer_content_section h3:before, .bancos_parceiros_titulo span:before { display: none; position: absolute; top: 24px; left: 50%; margin-left: -20px; content: ""; width: 40px; height: 3px; background-color: #fff;  }
+.bancos_parceiros_titulo span:before { top: 52px; }
