@@ -71,8 +71,8 @@ html,body{
 /**************************************************/
 /**************** SECTION SERVIÇOS ****************/
 
-.section-servicos-content { display: flex; flex-flow: row wrap; justify-content: center; margin: 50px 0 20px 0; }
-.section-servicos-content article { text-align: center; margin: 0 16px; width: 280px; }
+.section-servicos-content { display: flex; flex-flow: row wrap; justify-content: center; padding-top: 20px; }
+.section-servicos-content article { text-align: center; margin: 0 16px; width: 20%; margin: 30px 16px 30px 16px; }
 .section-servicos-content article img { width: 80px; }
 .section-servicos-content article h3 { padding: 16px 0; }
 
