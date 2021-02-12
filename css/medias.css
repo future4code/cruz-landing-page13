@@ -6,19 +6,19 @@
     
     .content { width: 100%; }
 
-    .section-servicos-content { margin: 20px 0 0 0; }
-    .section-servicos-content article { margin: 20px 0 20px 0; width: 80%;}
-    .section-servicos-content article { margin: 20px 10px 20px 10px; }
+    .section-servicos-content { margin: 20px 0 50px 0; }
     .section-servicos-title { padding: 0 20px; }
+    .section-servicos-content article {  width: 80%; }
 
     .section-como-funciona-input { width: 380px; margin: 0 auto; }
     .section-como-funciona-input input { width: 100%; }
     .section-como-funciona-input button { width: 100%; margin-left: 0; margin-top: 7px; }
 
     .section-como-funciona-content { justify-content: center; }
-    .section-como-funciona-title h2 { font-size: 2rem; }
-    .section-como-funciona-img img { width: 200px; bottom: -50px;}  
-    .section-como-funciona-img img { display: none; position: absolute; top: 0; left: 0; }  
+    .section-como-funciona-title h2 { font-size: 2rem; text-align: center;}
+    .section-como-funciona-title p { text-align: center;}
+    .section-como-funciona-img { display: flex; justify-content: center; }
+    .section-como-funciona-img img { position: absolute; top: -200px; left: 50%; margin-left: -100px; width: 200px; }  
 
     .section-vantagens-list { grid-template-columns: repeat( 1, 1fr); }
     .section-vantagens-list li { padding: 20px; }
@@ -28,8 +28,7 @@
 
     .content { width: 100%; }
     .section-servicos-content { margin: 20px 0 0 0; }
-    .section-servicos-content article { margin: 20px 0 20px 0; }
-    .section-servicos-content article { margin: 20px 10px 20px 10px; }
+    .section-servicos-content article {  width: 40%; }
 
     .section-como-funciona-input { width: 380px; }
     .section-como-funciona-input input { width: 100%; }
@@ -46,8 +45,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px ) {
 
     .content { width: 96%; }
-    .section-servicos-content { margin: 20px 0 0 0; }
-    .section-servicos-content article { margin: 20px 10px 20px 10px; }
 
     .section-como-funciona-input { width: 400px; }
     .section-como-funciona-input input { width: 100%; }
