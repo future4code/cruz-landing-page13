@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -16,6 +16,10 @@
       <div class="logo">
         <h1><img src="images/logo.png" title="logotipo" alt="logo"></h1>
       </div>
+
+      <input type="checkbox" id="bt_menu" name="bt_menu">
+      <label for="bt_menu">&#9776;</label>
+
       <nav class="main-header-content-nav">
         <li class=""><a href="#" class=""></a><span>Página Inicial</span></li>
         <li class=""><a href="#" class=""></a><span>Lojas</span></li>
@@ -39,33 +43,32 @@
     <section class="section-servicos">
       <div class="section-servicos-title section-title">
         <h2>Encontre na nossa plataforma a solução ideal para você!</h2>
-        <p class="section-servicos-subtitle">Oferecemos 3 formas de contratação. É tudo feito 100% online!
+        <p class="section-servicos-subtitle">Oferecemos 4 formas de contratação. É tudo feito 100% online!
         </p>
       </div>
       <div class="section-servicos-content content">
         <article>
-          <img src="https://image.flaticon.com/icons/png/512/686/686317.png" alt="icon1" title="icon1">
-          <h3>Empréstimo Pessoal</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint voluptates,
-            explicabo nesciunt, esse beatae voluptatibus neque nam fugit sapiente.</p>
+          <img src="images/icone_emprestimo.png" alt="icon1" title="icon1">
+          <h3>1. Empréstimo Pessoal</h3>
+          <p>Trata-se de uma linha de crédito pessoal sem consulta ao SPC/SERASA com liberação em até 48 horas.</p>
         </article>
         <article>
-          <img src="https://image.flaticon.com/icons/png/512/686/686317.png" alt="icon1" title="icon1">
-          <h3>Empréstimo com Garantia</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint voluptates,
-            explicabo nesciunt, esse beatae voluptatibus neque nam fugit sapiente.</p>
+          <img src="images/icone_emprestimo.png" alt="icon1" title="icon1">
+          <h3>2. Empréstimo com Garantia</h3>
+          <p>Refinanciamento Imobiliário: para clientes que tenham imóvel quitado e renda comprovada. Ligue para nós e
+            confira as condições.</p>
         </article>
         <article>
-          <img src="https://image.flaticon.com/icons/png/512/686/686317.png" alt="icon1" title="icon1">
-          <h3>Consignado Privado</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint voluptates,
-            explicabo nesciunt, esse beatae voluptatibus neque nam fugit sapiente.</p>
+          <img src="images/icone_emprestimo.png" alt="icon1" title="icon1">
+          <h3>3. Consignado Privado</h3>
+          <p>Empréstimo com desconto em folha para funcionários públicos ou de empresas privadas, com ou sem convênio
+            com a empresa/órgão.</p>
         </article>
         <article>
-          <img src="https://image.flaticon.com/icons/png/512/686/686317.png" alt="icon1" title="icon1">
-          <h3>Consignado Público</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint voluptates,
-            explicabo nesciunt, esse beatae voluptatibus neque nam fugit sapiente.</p>
+          <img src="images/icone_emprestimo.png" alt="icon1" title="icon1">
+          <h3>4. Consignado Público</h3>
+          <p>Crédito com Desconto em Folha de Pagamento para Aposentados e Pensionistas do INSS, Servidores Públicos e
+            Militares.</p>
         </article>
       </div>
     </section>
@@ -94,7 +97,7 @@
     <section class="section-vantagens">
       <article class="container content">
         <header class="section-vantagens-header section-title">
-          <h2>MINHAS VANTAGENS</h2>
+          <h2>NOSSAS VANTAGENS</h2>
           <p>Além de Serviços Bancários comuns...</p>
         </header>
         <div>
@@ -172,60 +175,32 @@
         </div>
       </article>
     </section>
-  </main>
-
-  <section class="section-perguntas">
-    <header class="section-perguntas-header section-title">
-      <h2>Perguntas Frequentes</h2>
-      <p>Confira as principais dúvidas e respostas do Finans</p>
-    </header>
-
-    <ul>
-      <div class="section-perguntas-list section-generica">
-        <div class="left-perguntas">
-          <li>
-            <div class="section-perguntas-p">
-              <p>quanto posso ganhar?</p>
-            </div>
-          </li>
-          <li>
-            <div class="section-perguntas-p">
-              <p>como posso começar?</p>
-            </div>
-          </li>
-          <li>
-            <div class="section-perguntas-p">
-              <p>é seguro?</p>
-            </div>
-          </li>
+    <section class="section-contact">
+      <div class="section-contact-content content">
+        <div class="section-contact-title section-title">
+          <h2>Faça uma simulação com a FINANS</h2>
+          <p class="section-servicos-subtitle">Recebe seu empréstimo com a menor taxa e as melhores condições do
+            mercado.
+          </p>
         </div>
-
-        <div class="right-perguntas">
-          <li>
-            <div class="section-perguntas-p">
-              <p>qual é seu objetivo?</p>
-            </div>
-          </li>
-          <li>
-            <div class="section-perguntas-p">
-              <p>como funciona</p>
-            </div>
-          </li>
-          <li>
-            <div class="section-perguntas-p">
-              <p>como faço?</p>
-            </div>
-          </li>
+        <!--div-flex-->
+        <div class="section-contact-form">
+          <h4>Fale Conosco!</h4>
+          <form action="">
+            <input type="text" name="first_name" placeholder="Primeiro nome:" />
+            <input type="text" name="last_name" placeholder="Último nome:" />
+            <input type="email" name="email" placeholder="Melhor e-mail:" />
+            <textarea id="w3review" name="w3review" rows="8" cols="50"></textarea>
+            <button class="radius transition gradient gradient-green gradient-hover">Enviar</button>
+          </form>
         </div>
       </div>
-
-    </ul>
-
-  </section>
-
+      <!--Content-->
+    </section>
+  </main>
   <footer class="main-footer">
     <div class="content main_footer_content">
-      <section>
+      <section class="main_footer_content_section">
         <div class="logo-preto">
           <img
             src="https://bl3301files.storage.live.com/y4psQv5RX0NB2GOwzgP5hxGYdx5ABF7KHfWsl3GBzxNA5zG37DoXVIXCzhFMb0M-kEihWGCq-fcxVcVE1PrcB7y0yAPuLdCxaG1spwGV8dXSj80FO_n6vhX5xgDx2n4BT_6fEtGVeYwV-KWDSz99D48QRKfKPF3xwGdm7nu-iu_s1yCSueLkDCMPSym3mbvKzPfBOwkccH59je79bW4aM3CuxVXZkjq1ynFRjqv19v7XFA/logo-preto.png?psid=1&width=261&height=68"
@@ -233,9 +208,9 @@
         </div>
         <p class="redes-sociais">Nos encontre nas redes sociais:</p>
         <div>
-          <img src="/../../Cursos/Projetos/novo-projeto/images/facebook.png" width="50" />
-          <img src="/../../Cursos/Projetos/novo-projeto/images/twitter.png" width="50" />
-          <img src="/../../Cursos/Projetos/novo-projeto/images/insta.png" width="50" />
+          <a href="https://www.facebook.com/" target="__blank"><img src="/../../Cursos/Projetos/novo-projeto/images/facebook.png" width="50" /></a>
+          <a href="https://twitter.com/" target="__blank"><img src="/../../Cursos/Projetos/novo-projeto/images/twitter.png" width="50" /></a>
+          <a href="https://www.instagram.com/" target="__blank"><img src="/../../Cursos/Projetos/novo-projeto/images/insta.png" width="50" /></a>
         </div>
       </section>
       <section class="main_footer_content_section">
