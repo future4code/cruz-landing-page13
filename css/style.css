@@ -88,7 +88,7 @@ label[for="bt_menu"]{ font-size: 2.3rem; color: #fff; cursor: pointer; display: 
 .section-como-funciona { background:#011A5A; z-index: 998;}
 .section-como-funciona-content{display: flex; align-items: center; justify-content: space-between;}
 .section-como-funciona-title h2 {color: white; max-width: 400px; text-align: left; font-size: 2.6em; }
-.section-como-funciona-title p {width: 400px; color: white; text-align: left; padding: 20px 0;}
+.section-como-funciona-title p {width: 300px; color: white; text-align: left; padding: 20px 0;}
 .section-como-funciona-input input {width: 400px; padding: 20px 10px; margin-top: 10px; border: none; border-radius: 2px;}
 .section-como-funciona-input button{background-image: var(--color-gradient); padding: 18px 30px; margin-left: 10px; border-radius: 2px; font-weight: bolder; border:none; cursor: pointer; font-size: 1.0em;}
 .section-como-funciona-input button:focus {outline: none;}
@@ -109,7 +109,7 @@ label[for="bt_menu"]{ font-size: 2.3rem; color: #fff; cursor: pointer; display: 
 /**************************************************/
 /****************** CONTATO  **********************/
 
-.section-contact { background-color: #f3f3f3;  }
+.section-contact { background-color: #f3f3f3; transition: all .4s; }
 .section-contact-title h2, .section-contact-title p { text-align: left; color: #555; }
 .section-contact-content { display: flex; justify-content: space-between; flex-grow: 1; align-items: center; }
 .section-contact-form, .section-contact-form form { display: flex; flex-flow: column wrap; }
