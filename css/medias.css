@@ -1,0 +1,86 @@
+@media screen and (max-width: 800px ) {
+    
+    /* MENU */
+    #bt_menu { display: none; }
+    .main-header-content-nav { visibility: hidden; top: -200px; padding: 20px 0; transition: all .4s; left: 0; display: block; background-color: #fff; }
+    .menu-mobile { visibility: visible; }
+    #bt_menu:checked ~ label[for="bt_menu"] { color: red; visibility: hidden; }
+    #bt_menu:checked ~ label[for="bt_menu"]:after { visibility: visible; position: relative; content: '\0445'; right: 7px; }
+    label[for="bt_menu"]{ display: block; z-index: 999; }
+    #bt_menu:checked ~ .main-header-content-nav { top: 0; visibility: visible; transition: all .4s; z-index: 998; }
+    #bt_menu:checked ~ .main-header-content-nav li { padding: 4px 0; color: #000; text-shadow: none; }
+
+    /********/
+
+    .content { width: 100%; }
+
+    .main-content-featured header h1 { font-size: 3em; max-width: 400px; }
+
+    .section-servicos-content { margin: 20px 0 50px 0; }
+    .section-servicos-title { padding: 0 20px; }
+    .section-servicos-content article {  width: 80%; }
+
+    .section-como-funciona-input { width: 300px; margin: 0 auto; }
+    .section-como-funciona-input input { width: 100%; }
+    .section-como-funciona-input button { width: 100%; margin-left: 0; margin-top: 7px; }
+
+    .section-como-funciona-content { justify-content: center; }
+    .section-como-funciona-title h2 { font-size: 1.6rem; margin: 0 auto; text-align: center; width: 300px;}
+    .section-como-funciona-title p { text-align: center;}
+    .section-como-funciona-img { display: flex; justify-content: center; }
+    .section-como-funciona-img img { position: absolute; top: -200px; left: 50%; margin-left: -100px; width: 200px; }  
+
+    .section-vantagens-list { grid-template-columns: repeat( 1, 1fr); }
+    .section-vantagens-list li { padding: 20px; }
+
+    .section-contact-content { flex-flow: row wrap; }
+    .section-contact-form, .section-contact-title { padding: 0 0; }
+    .section-contact-title h2, .section-contact-title p { text-align: center; padding: 10px 0;  }
+    .section-contact-form h4  { display: none; }
+
+    .main_footer_content { flex-wrap: wrap; text-align: center;}
+    .main_footer_content_section { border-bottom: 1px solid #ccc; padding: 20px 0 20px 0; }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px ) {
+
+    /* MENU */
+    #bt_menu { display: none; }
+    .main-header-content-nav { visibility: hidden; top: -200px; padding: 20px 0; transition: all .4s; left: 0; display: block; background-color: #fff; }
+    .menu-mobile { visibility: visible; }
+    #bt_menu:checked ~ label[for="bt_menu"] { color: red; visibility: hidden; }
+    #bt_menu:checked ~ label[for="bt_menu"]:after { visibility: visible; position: relative; content: '\0445'; right: 7px; }
+    label[for="bt_menu"]{ display: block; z-index: 999; }
+    #bt_menu:checked ~ .main-header-content-nav { top: 0; visibility: visible; transition: all .4s; z-index: 998; }
+    #bt_menu:checked ~ .main-header-content-nav li { padding: 4px 0; color: #000; text-shadow: none;}
+
+    /********/
+
+    .content { width: 100%; }
+    .section-servicos-content { margin: 20px 0 0 0; }
+    .section-servicos-content article {  width: 40%; }
+
+    .section-como-funciona-input { width: 380px; }
+    .section-como-funciona-input input { width: 100%; }
+    .section-como-funciona-input button { width: 100%; margin-left: 0; margin-top: 7px; }
+
+    .section-como-funciona-content { justify-content: center; }
+    .section-como-funciona-img { position: relative; }
+    .section-como-funciona-title h2 { font-size: 2em; }
+    .section-como-funciona-img img { width: 350px; bottom: -50px;}
+
+    .section-vantagens-list li { padding: 30px; }
+
+    .main_footer_content { flex-wrap: wrap; text-align: center;}
+    .main_footer_content_section { border-bottom: 1px solid #ccc; padding: 20px 0 20px 0; }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px ) {
+
+    .content { width: 96%; }
+
+    .section-como-funciona-input { width: 400px; }
+    .section-como-funciona-input input { width: 100%; }
+    .section-como-funciona-input button { width: 100%; margin-left: 0; margin-top: 7px; }
+
+}
